@@ -1,0 +1,32 @@
+
+.visitka__title {
+    color: #fff;
+
+    &::before {
+        background-image: url("../media/section/bdgreen-3.png");
+    }
+}
+
+.visitka__body {
+    padding: 30px;
+    background-color: rgba(2, 86, 7, 0.9);
+    border: 5px solid #d4c53d;
+    border-radius: 35px;
+    text-align: center;
+    color: #fff;
+
+    & p {
+        font-size: 18px;
+        font-family: sans-serif;
+        font-family: "Amazing", serif;
+        font-weight: 400;
+
+        & b {
+            font-weight: 400;
+        }
+
+        & + p {
+            margin-top: 20px;
+        }
+    }
+}
