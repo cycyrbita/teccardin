@@ -1,0 +1,147 @@
+
+.form {
+    width: 100%;
+    max-width: 370px;
+    padding: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+}
+
+.form__title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.form__price {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form__price-old {
+    display: inline-block;
+    font-size: 18px;
+    color: #898989;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.form__price-new {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+    color: #f02626;
+    vertical-align: middle;
+}
+
+.form__label {
+    display: block;
+
+    & + & {
+        margin-top: 15px;
+    }
+}
+
+.form__label-name {
+    margin-bottom: 5px;
+    color: #242424;
+}
+
+.form__field {
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.form__time {
+    margin-top: 30px;
+}
+
+.form__time-title {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form__time-body {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__time-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 0;
+    border: 1px solid #f1f1f1;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    padding: 0 10px;
+
+    & span {
+        &:nth-child(1) {
+            font-size: 40px;
+            font-weight: 700;
+            color: #f02626;
+        }
+
+        &:nth-child(2) {
+            position: absolute;
+            bottom: -25px;
+            font-weight: 500;
+        }
+    }
+}
+
+.form__btn {
+    display: block;
+    padding: 20px;
+    border-radius: 50px;
+    width: 100%;
+    border: 0;
+    overflow: none;
+    background-color: rgb(240,73,95);
+    background-image: linear-gradient(173deg, rgba(240,73,95,1) 0%, rgba(240,38,39,1) 100%);
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover {
+        background-image: linear-gradient(173deg, rgba(240,38,39,1) 0%, rgba(240,73,95,1) 100%);
+        transform: scale(0.98);
+    }
+}
+
+@media (max-width: 1310px) {
+    .form {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .form {
+        padding: 25px;
+    }
+
+    .form__time-item {
+        margin-right: 5px;
+        margin-left: 5px;
+        & span {
+            &:nth-child(1) {
+                font-size: 32px;
+            }
+        }
+    }
+
+    .face__title {
+        font-size: 33px;
+    }
+}
