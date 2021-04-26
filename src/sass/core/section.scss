@@ -15,6 +15,10 @@
     .section {
         padding-top: 60px;
         padding-bottom: 60px;
+
+        &_face {
+            background-image: url("../media/section/face-1310.jpg");
+        }
     }
 }
 
@@ -22,6 +26,10 @@
     .section {
         padding-top: 40px;
         padding-bottom: 40px;
+
+        &_face {
+            background-image: url("../media/section/face-768.jpg");
+        }
     }
 }
 
@@ -29,5 +37,9 @@
     .section {
         padding-top: 20px;
         padding-bottom: 20px;
+
+        &_face {
+            background-image: url("../media/section/face-480.jpg");
+        }
     }
 }
