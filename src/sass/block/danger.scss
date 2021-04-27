@@ -1,0 +1,160 @@
+
+.danger__title {
+    margin-bottom: 30px;
+    font-size: 83px;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+
+    & mark {
+        display: block;
+        font-size: 63px;
+        font-weight: 700;
+        color: #df082a;
+    }
+}
+
+.danger__subtitle {
+    max-width: 470px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.danger__human {
+    height: 323px;
+    background-image: url("../media/danger/humans.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.danger__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.danger__item {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 615px;
+    padding: 70px 40px 40px 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .4);
+
+    &:first-child {
+        background-image: url("../media/danger/bg-1.jpg");
+    }
+
+    &:last-child {
+        background-image: url("../media/danger/bg-2.jpg");
+    }
+}
+
+.danger__count {
+    font-size: 68px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.danger__description {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+
+    & span {
+        display: block;
+    }
+
+    & mark {
+        font-weight: 700;
+        color: inherit;
+    }
+}
+
+@media (max-width: 1310px) {
+    .danger__body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .danger__item {
+        & + & {
+            margin-top: 30px;
+        }
+    }
+
+    .danger__title {
+        font-size: 68px;
+
+        & mark {
+            font-size: 48px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .danger__title {
+        font-size: 46px;
+        margin-bottom: 20px;
+
+        & mark {
+            font-size: 32px;
+        }
+    }
+    
+    .danger__count {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .danger__human {
+        margin: 30px 0;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .danger__title {
+        font-size: 37px;
+
+        & mark {
+            font-size: 28px;
+        }
+    }
+
+    .danger__human {
+        margin: 15px 0;
+        height: 125px;
+    }
+
+    .danger__subtitle {
+        font-size: 17px;
+    }
+
+    .danger__item {
+        padding: 35px 15px 15px 15px;
+
+        & + & {
+            margin-top: 20px;
+        }
+    }
+
+    .danger__count {
+        font-size: 32px;
+    }
+
+    .danger__description {
+        font-size: 15px;
+
+        & span {
+            display: inline;
+        }
+    }
+}
