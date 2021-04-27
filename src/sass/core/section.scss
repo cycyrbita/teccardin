@@ -9,6 +9,15 @@
         background-size: cover;
         background-position: center top;
     }
+
+    &_warning {
+        background-color: #f2f2f2;
+    }
+
+    &_news {
+        background-image: url("../media/section/news.jpg");
+        background-position: center calc(50% - 20px);
+    }
 }
 
 @media (max-width: 1310px) {
@@ -18,6 +27,11 @@
 
         &_face {
             background-image: url("../media/section/face-1310.jpg");
+        }
+
+        &_news {
+            padding-bottom: 120px;
+            background-position: center bottom;
         }
     }
 }
@@ -30,6 +44,10 @@
         &_face {
             background-image: url("../media/section/face-768.jpg");
         }
+
+        &_news {
+            padding-bottom: 120px;
+        }
     }
 }
 
@@ -40,6 +58,11 @@
 
         &_face {
             background-image: url("../media/section/face-480.jpg");
+        }
+
+        &_news {
+            overflow: hidden;
+            padding-bottom: 120px;
         }
     }
 }
