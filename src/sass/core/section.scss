@@ -18,6 +18,13 @@
         background-image: url("../media/section/news.jpg");
         background-position: center calc(50% - 20px);
     }
+
+    &_product {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background-image: url("../media/section/product.jpg");
+        background-position: center top;
+    }
 }
 
 @media (max-width: 1310px) {
@@ -63,6 +70,11 @@
         &_news {
             overflow: hidden;
             padding-bottom: 120px;
+        }
+
+        &_product {
+            background-image: url("../media/section/product-480.jpg");
+            background-position: center bottom;
         }
     }
 }
