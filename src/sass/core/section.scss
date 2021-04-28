@@ -25,6 +25,11 @@
         background-image: url("../media/section/product.jpg");
         background-position: center top;
     }
+
+    &_effect {
+        background-image: url("../media/section/effect.jpg");
+        background-size: cover;
+    }
 }
 
 @media (max-width: 1310px) {

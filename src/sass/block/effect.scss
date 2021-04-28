@@ -1,0 +1,107 @@
+
+.effect__title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 63px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.effect__subtitle {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.effect__result {
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.effect__body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.effect__item {
+    padding: 40px;
+    border-radius: 30px;
+    flex: 1 0 0;
+    margin: 30px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.effect__count {
+    font-size: 126px;
+    color: #d81919;
+    font-weight: 800;
+    line-height: .8;
+}
+
+.effect__text {
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    background-image: url("../media/effect/arrow.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    font-size: 34px;
+    color: #d81919;
+    font-weight: 300;
+}
+
+.effect__description {
+    max-width: 245px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 19px;
+}
+
+@media (max-width: 1310px) {
+    .effect__item {
+        flex: 0 0 auto;
+        width: calc(50% - 30px);
+        margin: 15px;
+
+        &:last-child {
+            width: calc(100% - 30px);
+        }
+    }
+    
+    .effect__count {
+        font-size: 88px;
+    }
+
+    .effect__title {
+        font-size: 44px;
+    }
+
+    .effect__subtitle {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .effect__result {
+        margin-bottom: 20px;
+    }
+
+    .effect__item {
+        margin: 0 0 30px 0;
+        width: 100% !important;
+    }
+
+    .effect__title {
+        font-size: 28px;
+    }
+
+    .effect__subtitle {
+        font-size: 20px;
+    }
+}
