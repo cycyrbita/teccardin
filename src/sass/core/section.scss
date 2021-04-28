@@ -30,6 +30,11 @@
         background-image: url("../media/section/effect.jpg");
         background-size: cover;
     }
+
+    &_why {
+        background-image: url("../media/section/why.jpg");
+        background-position: center;
+    }
 }
 
 @media (max-width: 1310px) {
