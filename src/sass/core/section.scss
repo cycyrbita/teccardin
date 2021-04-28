@@ -40,6 +40,11 @@
         background-image: url("../media/section/professional.jpg");
         background-position: center top;
     }
+
+    &_commits {
+        background-image: url("../media/section/effect.jpg");
+        background-size: cover;
+    }
 }
 
 @media (max-width: 1310px) {
