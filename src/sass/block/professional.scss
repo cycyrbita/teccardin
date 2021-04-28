@@ -1,0 +1,129 @@
+
+.professional {
+    max-width: 620px;
+
+    & p {
+        font-size: 18px;
+
+        &:nth-child(2) {
+            font-size: 23px;
+            color: #cb0505;
+            font-weight: 500;
+        }
+
+        & + p {
+            margin-top: 20px;
+        }
+    }
+}
+
+.professional__title {
+    font-size: 45px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+    & mark {
+        color: #f02626;
+    }
+}
+
+.professional__footer {
+    display: flex;
+    margin-top: 40px;
+}
+
+.professional__name {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #cb0505;
+
+    & span {
+        display: block;
+    }
+}
+
+.professional__media {
+    flex: 0 0 auto;
+    margin-left: 15px;
+}
+
+@media (max-width: 1310px) {
+    .professional {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .professional__title {
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .professional {
+        display: flex;
+        flex-direction: column;
+
+        & p {
+            text-align: center;
+
+            &:nth-child(2) {
+                font-size: 20px;
+                order: 3;
+            }
+
+            &:nth-child(3) {
+                order: 4;
+            }
+
+            &:nth-child(4) {
+                order: 5;
+            }
+        }
+    }
+
+    .professional__title {
+        order: 1;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .professional__footer {
+        flex-direction: column;
+        width: 100%;
+        order: 2;
+        background-image: url("../media/section/professional-480.jpg");
+        background-position: right bottom;
+        margin-left: -15px;
+        margin-right: -15px;
+        width: calc(100% + 30px);
+        padding-right: 15px;
+        padding-left: 15px;
+        min-height: 210px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .professional__name {
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+        width: 60%;
+    }
+
+    .professional__media {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 60%;
+    }
+
+    .professional__job {
+        width: 60%;
+        font-size: 14px;
+    }
+}

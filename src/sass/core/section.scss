@@ -35,6 +35,11 @@
         background-image: url("../media/section/why.jpg");
         background-position: center;
     }
+
+    &_professional {
+        background-image: url("../media/section/professional.jpg");
+        background-position: center top;
+    }
 }
 
 @media (max-width: 1310px) {
@@ -48,6 +53,12 @@
 
         &_news {
             padding-bottom: 120px;
+            background-position: center bottom;
+        }
+
+        &_professional {
+            padding-bottom: 300px;
+            background-image: url("../media/section/professional-1310.jpg");
             background-position: center bottom;
         }
     }
@@ -64,6 +75,11 @@
 
         &_news {
             padding-bottom: 120px;
+        }
+
+        &_professional {
+            padding-bottom: 320px;
+            background-image: url("../media/section/professional-768.jpg");
         }
     }
 }
@@ -85,6 +101,14 @@
         &_product {
             background-image: url("../media/section/product-480.jpg");
             background-position: center bottom;
+        }
+
+        &_why {
+            background-image: none;
+        }
+
+        &_professional {
+            background-image: none;
         }
     }
 }
