@@ -75,7 +75,7 @@
     padding-left: 50px;
     flex: 0 0 auto;
     width: calc(50% - 15px);
-    margin: 7.5px;
+    margin: 15px 7.5px;
     background-repeat: no-repeat;
     background-position: left top;
 
@@ -178,5 +178,13 @@
         & mark {
             display: block;
         }
+    }
+
+    .face__logo {
+        margin-bottom: 20px;
+    }
+
+    .face__media {
+        margin-bottom: 30px;
     }
 }
