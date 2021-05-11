@@ -7,7 +7,7 @@
     margin-right: auto;
     margin-left: auto;
     background-color: #fff;
-    border: 1px solid #ef1515;
+    border: 2px solid #ef1515;
     border-radius: 30px;
 }
 
@@ -37,10 +37,11 @@
     margin-top: 15px;
 
     & a {
-        display: inline-block;
         font-weight: 700;
         font-style: italic;
         color: #000;
+        border-bottom: 2px solid #ef1515;
+        text-decoration: none;
     }
 }
 

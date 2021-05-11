@@ -65,11 +65,11 @@
     }
 
     &:nth-child(2) {
-        background-image: url("../media/product/icon-2.png");
+        background-image: url("../media/product/icon-3.png");
     }
 
     &:nth-child(3) {
-        background-image: url("../media/product/icon-3.png");
+        background-image: url("../media/product/icon-2.png");
     }
 }
 
@@ -99,6 +99,7 @@
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.24);
 
     &:hover {
         background-image: linear-gradient(173deg, rgba(240,38,39,1) 0%, rgba(240,73,95,1) 100%);
